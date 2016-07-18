@@ -1,0 +1,63 @@
+[submodule "ofxstatement-lithuanian"]
+	path = ofxstatement-lithuanian
+	url = https://github.com/kedder/ofxstatement-lithuanian
+[submodule "ofxstatement-czech"]
+	path = ofxstatement-czech
+	url = https://gitlab.com/mcepl/ofxstatement-czech
+[submodule "ofxstatement-unicreditcz"]
+	path = ofxstatement-unicreditcz
+	url = https://github.com/milankni/ofxstatement-unicreditcz
+[submodule "ofxstatement-otp"]
+	path = ofxstatement-otp
+	url = https://github.com/abesto/ofxstatement-otp
+[submodule "ofxstatement-bubbas"]
+	path = ofxstatement-bubbas
+	url = https://github.com/bubbas/ofxstatement-bubbas
+[submodule "ofxstatement-1822direkt"]
+	path = ofxstatement-1822direkt
+	url = https://github.com/MirkoDziadzka/ofxstatement-1822direkt
+[submodule "ofxstatement-austrian"]
+	path = ofxstatement-austrian
+	url = https://github.com/nblock/ofxstatement-austrian
+[submodule "ofxstatement-mbank-sk"]
+	path = ofxstatement-mbank-sk
+	url = https://github.com/epitheton/ofxstatement-mbank-sk
+[submodule "ofxstatement-be-keytrade"]
+	path = ofxstatement-be-keytrade
+	url = https://github.com/Scotchy49/ofxstatement-be-keytrade
+[submodule "ofxstatement-be-ing"]
+	path = ofxstatement-be-ing
+	url = https://github.com/TheoMarescaux/ofxstatement-be-ing
+[submodule "ofxstatement-betterment"]
+	path = ofxstatement-betterment
+	url = https://github.com/cmayes/ofxstatement-betterment
+[submodule "ofxstatement-simple"]
+	path = ofxstatement-simple
+	url = https://github.com/cmayes/ofxstatement-simple
+[submodule "ofxstatement-latvian"]
+	path = ofxstatement-latvian
+	url = https://github.com/gintsmurans/ofxstatement-latvian
+[submodule "ofxstatement-iso20022"]
+	path = ofxstatement-iso20022
+	url = https://github.com/kedder/ofxstatement-iso20022
+[submodule "ofxstatement-seb"]
+	path = ofxstatement-seb
+	url = https://github.com/themalkolm/ofxstatement-seb
+[submodule "ofxstatement-alfabank"]
+	path = ofxstatement-alfabank
+	url = https://github.com/themalkolm/ofxstatement-alfabank
+[submodule "ofxstatement-paypal"]
+	path = ofxstatement-paypal
+	url = https://github.com/themalkolm/ofxstatement-paypal
+[submodule "ofxstatement-polish"]
+	path = ofxstatement-polish
+	url = https://github.com/yay6/ofxstatement-polish
+[submodule "ofxstatement-russian"]
+	path = ofxstatement-russian
+	url = https://github.com/gerasiov/ofxstatement-russian
+[submodule "ofxstatement-sample"]
+	path = ofxstatement-sample
+	url = https://github.com/kedder/ofxstatement-sample
+[submodule "ofxstatement-postfinance"]
+	path = ofxstatement-postfinance
+	url = git@github.com:maxandersen/ofxstatement-sample.git
