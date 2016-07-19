@@ -1,0 +1,5 @@
+ofxstatement-plugins (20160725) unstable; urgency=low
+
+  * Initial release (Closes: #831802).
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Mon, 25 Jul 2016 10:47:03 +0300
