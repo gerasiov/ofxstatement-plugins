@@ -61,3 +61,6 @@
 [submodule "ofxstatement-postfinance"]
 	path = ofxstatement-postfinance
 	url = git@github.com:maxandersen/ofxstatement-sample.git
+[submodule "ofxstatement-be-kbc"]
+	path = ofxstatement-be-kbc
+	url = git@github.com:plenaerts/ofxstatement-be-kbc.git

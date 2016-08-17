@@ -21,6 +21,12 @@ Copyright:
 	2016, TheoMarescaux <theo.public@gmail.com>
 License: AGPL-3
 
+Files: ofxstatement-be-kbc/*
+Copyright:
+	2013, Andrey Lebedev <andrey@lebedev.lt>
+	2016, Pieter Lenaerts <pieter.aj.lenaerts@gmail.com>
+License: GPL-3
+
 Files: ofxstatement-be-keytrade/*
 Copyright:
 	2013, Andrey Lebedev <andrey@lebedev.lt>
