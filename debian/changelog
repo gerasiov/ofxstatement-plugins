@@ -1,3 +1,10 @@
+ofxstatement-plugins (20160817) unstable; urgency=medium
+
+  * Add ofxstatement-be-kbc plugin.
+  * ofxstatement-latvian updated (license fixup).
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Wed, 17 Aug 2016 15:10:54 +0300
+
 ofxstatement-plugins (20160725) unstable; urgency=low
 
   * Initial release (Closes: #831802).
