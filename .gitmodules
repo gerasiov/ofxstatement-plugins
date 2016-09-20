@@ -64,3 +64,6 @@
 [submodule "ofxstatement-be-kbc"]
 	path = ofxstatement-be-kbc
 	url = git@github.com:plenaerts/ofxstatement-be-kbc.git
+[submodule "ofxstatement-dab"]
+	path = ofxstatement-dab
+	url = https://github.com/JohannesKlug/ofxstatement-dab

@@ -108,6 +108,12 @@ Copyright:
 	2016, Milan Knížek <milankni.git@gmail.com>
 License: AGPL-3
 
+Files: ofxstatement-dab/*
+Copyright:
+	2013, Andrey Lebedev <andrey@lebedev.lt>
+	2016, Johannes Klug <jk@jklug.com>
+License: GPL-3
+
 Files: debian/*
 Copyright: 2016 Alexander Gerasiov <gq@debian.org>
 License: GPL-3
