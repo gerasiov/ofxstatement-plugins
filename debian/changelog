@@ -1,3 +1,9 @@
+ofxstatement-plugins (20160920) unstable; urgency=medium
+
+  * New pluging: ofxstatement-dab.
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Tue, 20 Sep 2016 17:25:21 +0300
+
 ofxstatement-plugins (20160817) unstable; urgency=medium
 
   * Add ofxstatement-be-kbc plugin.
