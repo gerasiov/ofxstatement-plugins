@@ -1,3 +1,12 @@
+ofxstatement-plugins (20170307) unstable; urgency=medium
+
+  * Update submodules:
+    + ofxstatement-1822direkt
+    + ofxstatement-iso20022
+    + ofxstatement-russian
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Tue, 07 Mar 2017 13:24:43 +0300
+
 ofxstatement-plugins (20161204) unstable; urgency=medium
 
   * Updated ofxstatement-1822direkt and ofxstatement-be-kbc.
