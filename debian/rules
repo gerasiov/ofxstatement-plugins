@@ -34,3 +34,8 @@ override_dh_auto_build: $(addprefix plugin_build_,$(PLUGINS))
 override_dh_auto_install: $(addprefix plugin_install_,$(PLUGINS))
 #override_dh_auto_test: $(addprefix plugin_test_,$(PLUGINS))
 
+sync:
+	git submodule update --init
+	git submodule foreach git fetch
+	git submodule foreach git rebase origin/master
+	git commit ofxstatement-* -s -m "Update submodules" -m "$$(git submodule summary)"
