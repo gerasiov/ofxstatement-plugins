@@ -67,3 +67,6 @@
 [submodule "ofxstatement-dab"]
 	path = ofxstatement-dab
 	url = https://github.com/JohannesKlug/ofxstatement-dab
+[submodule "ofxstatement-is-arionbanki"]
+	path = ofxstatement-is-arionbanki
+	url = https://github.com/Dagur/ofxstatement-is-arionbanki.git
