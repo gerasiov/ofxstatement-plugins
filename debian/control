@@ -44,3 +44,5 @@ Description: set of plugins for ofxstatement
  ofxstatement-simple
  ofxstatement-unicreditcz
  ofxstatement-is-arionbanki
+ ofxstatement-airbankcz
+ ofxstatement-raiffeisencz
