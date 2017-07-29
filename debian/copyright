@@ -91,7 +91,8 @@ License: AGPL-3
 Files: ofxstatement-russian/*
 Copyright:
 	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2016, Alexander GQ Gerasiov <gq@cs.msu.su>
+	2016-2017, Alexander GQ Gerasiov <gq@cs.msu.su>
+	2017, Dmitry Pavlov <zeldigas@gmail.com>
 License: GPL-3
 
 Files: ofxstatement-seb/*
@@ -102,7 +103,7 @@ Files: ofxstatement-simple/*
 Copyright: 2015, Chris Mayes <cmayes@cmayes.com>
 License: GPL-3
 
-Files: ofxstatement-unicreditcz/*
+Files: ofxstatement-unicreditcz/* ofxstatement-raiffeisencz/*
 Copyright:
 	2013, Andrey Lebedev <andrey@lebedev.lt>
 	2016, Milan Knížek <milankni.git@gmail.com>
@@ -114,9 +115,22 @@ Copyright:
 	2016, Johannes Klug <jk@jklug.com>
 License: GPL-3
 
+Files: ofxstatement-airbankcz/*
+Copyright:
+	2013, Andrey Lebedev <andrey@lebedev.lt>
+	2017, Milan Knížek <milankni@gmail.com>
+License: GPL-3
+
+Files: ofxstatement-is-arionbanki/*
+Copyright:
+	2013, Andrey Lebedev <andrey@lebedev.lt>
+	2017, Dagur Páll Ammendrup <dagurp@gmail.com>
+License: GPL-3
+
 Files: debian/*
 Copyright: 2016 Alexander Gerasiov <gq@debian.org>
-License: GPL-3
+License: GPL-3 or Apache-2.0
+
 
 License: GPL-3
   This program is free software: you can redistribute it and/or modify
