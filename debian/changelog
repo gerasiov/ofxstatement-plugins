@@ -1,3 +1,23 @@
+ofxstatement-plugins (20170730) unstable; urgency=medium
+
+  * debian/rules: Add sync target.
+  * Add new plugins:
+    + ofxstatement-is-arionbanki
+    + ofxstatement-airbankcz
+    + ofxstatement-raiffeisencz
+  * Update submodules:
+    + ofxstatement-russian
+    + ofxstatement-austrian
+    + ofxstatement-iso20022
+    + ofxstatement-latvian
+    + ofxstatement-mbank-sk
+    + ofxstatement-polish
+    + ofxstatement-unicreditcz
+  * debian/copyright updated.
+  * debian/control: Bump standard's version, no changes needed.
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Sun, 30 Jul 2017 01:19:17 +0300
+
 ofxstatement-plugins (20170307) unstable; urgency=medium
 
   * Update submodules:
