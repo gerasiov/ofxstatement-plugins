@@ -1,3 +1,11 @@
+ofxstatement-plugins (20170827) unstable; urgency=medium
+
+  * Fix .gitmodules
+  * debian/rules: Do not install tests. Thanks to Chris Lamb <lamby@debian.org>. (Closes #862140.)
+  * Bump Standards-Version to 4.1.0 (no additional changes needed).
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Sun, 27 Aug 2017 03:13:36 +0300
+
 ofxstatement-plugins (20170730) unstable; urgency=medium
 
   * debian/rules: Add sync target.
