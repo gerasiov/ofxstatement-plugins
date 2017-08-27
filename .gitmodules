@@ -70,3 +70,9 @@
 [submodule "ofxstatement-is-arionbanki"]
 	path = ofxstatement-is-arionbanki
 	url = https://github.com/Dagur/ofxstatement-is-arionbanki.git
+[submodule "ofxstatement-airbankcz"]
+	url = https://github.com/milankni/ofxstatement-airbankcz
+	path = ofxstatement-airbankcz
+[submodule "ofxstatement-raiffeisencz"]
+	url = https://github.com/milankni/ofxstatement-raiffeisencz
+	path = ofxstatement-raiffeisencz
