@@ -21,7 +21,9 @@ plugin_install_% : %
 		--force --root=$(CURDIR)/debian/ofxstatement-plugins \
 		--no-compile -O0 --install-layout=deb
 	test ! -e $</$<.README.rst || dh_installdocs $</$<.README.rst
-	
+	# Don't install tests
+	find $(CURDIR)/debian/ofxstatement-plugins -type d -name 'tests' -print0 | \
+		xargs -0r rm -rf
 
 plugin_test_% : %
 	cd $< && python3 setup.py test
