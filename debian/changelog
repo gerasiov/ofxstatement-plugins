@@ -1,3 +1,13 @@
+ofxstatement-plugins (20171023) unstable; urgency=medium
+
+  * Update submodules:
+    + ofxstatement-be-kbc
+  * Bump Standards-Version to 4.1.1 (no additional changes needed).
+  * Add debian/.gitignore.
+  * Add debian/gbp.conf.
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Mon, 23 Oct 2017 13:10:30 +0300
+
 ofxstatement-plugins (20170827) unstable; urgency=medium
 
   * Fix .gitmodules
