@@ -50,7 +50,7 @@ Files: ofxstatement-czech/*
 Copyright:
 	2013, Andrey Lebedev <andrey@lebedev.lt>
 	2013-2015, Matěj Cepl <mcepl@cepl.eu>
-License: AGPL-3
+License: GPL-3
 
 Files: ofxstatement-iso20022/*
 Copyright: 2013-2016, Andrey Lebedev <andrey@lebedev.lt>
