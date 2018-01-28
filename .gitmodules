@@ -76,3 +76,6 @@
 [submodule "ofxstatement-raiffeisencz"]
 	url = https://github.com/milankni/ofxstatement-raiffeisencz
 	path = ofxstatement-raiffeisencz
+[submodule "ofxstatement-be-triodos"]
+	path = ofxstatement-be-triodos
+	url = https://github.com/renardeau/ofxstatement-be-triodos.git

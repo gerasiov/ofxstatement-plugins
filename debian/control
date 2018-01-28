@@ -23,14 +23,17 @@ Description: set of plugins for ofxstatement
  .
  This package provides most of plugins referenced on ofxstatement's homepage:
  ofxstatement-1822direkt
+ ofxstatement-airbankcz
  ofxstatement-alfabank
  ofxstatement-austrian
  ofxstatement-be-ing
  ofxstatement-be-kbc
  ofxstatement-be-keytrade
+ ofxstatement-be-triodos
  ofxstatement-betterment
  ofxstatement-bubbas
  ofxstatement-czech
+ ofxstatement-is-arionbanki
  ofxstatement-iso20022
  ofxstatement-latvian
  ofxstatement-lithuanian
@@ -39,10 +42,8 @@ Description: set of plugins for ofxstatement
  ofxstatement-paypal
  ofxstatement-polish
  ofxstatement-postfinance
+ ofxstatement-raiffeisencz
  ofxstatement-russian
  ofxstatement-seb
  ofxstatement-simple
  ofxstatement-unicreditcz
- ofxstatement-is-arionbanki
- ofxstatement-airbankcz
- ofxstatement-raiffeisencz
