@@ -1,3 +1,17 @@
+ofxstatement-plugins (20180128) unstable; urgency=medium
+
+  * Update submodules:
+    + ofxstatement-airbankcz
+    + ofxstatement-iso20022
+    + ofxstatement-unicreditcz
+    + ofxstatement-czech
+  * debian/copyright: ofxstatement-czech: Upstream fixed error in description,i
+    license is GPL-3, not AGPL.
+  * Add new plugin:
+    + ofxstatement-be-triodos
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Sun, 28 Jan 2018 15:23:54 +0300
+
 ofxstatement-plugins (20171023) unstable; urgency=medium
 
   * Update submodules:
