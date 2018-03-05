@@ -133,6 +133,11 @@ Copyright:
 	2018, Bernard Butaye <bernardenmartine@gmail.com>
 License: GPL-3
 
+Files: banking.statements.nordea/*
+	banking.statements.osuuspankki/*
+Copyright: 2011-2018, Petri Savolainen <petri.savolainen@iki.fi>
+License: GPL-3
+
 Files: debian/*
 Copyright: 2016 Alexander Gerasiov <gq@debian.org>
 License: GPL-3 or Apache-2.0

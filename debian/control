@@ -47,3 +47,5 @@ Description: set of plugins for ofxstatement
  ofxstatement-seb
  ofxstatement-simple
  ofxstatement-unicreditcz
+ banking.statements.osuuspankki
+ banking.statements.nordea

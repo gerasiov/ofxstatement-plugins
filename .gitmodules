@@ -79,3 +79,9 @@
 [submodule "ofxstatement-be-triodos"]
 	path = ofxstatement-be-triodos
 	url = https://github.com/renardeau/ofxstatement-be-triodos.git
+[submodule "banking.statements.osuuspankki"]
+	path = banking.statements.osuuspankki
+	url = https://github.com/koodaamo/banking.statements.osuuspankki.git
+[submodule "banking.statements.nordea"]
+	path = banking.statements.nordea
+	url = https://github.com/koodaamo/banking.statements.nordea.git

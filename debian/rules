@@ -6,7 +6,7 @@ export PYBUILD_NAME = ofxstatement-plugins
 %:
 	dh $@ --with python3
 
-PLUGINS=$(wildcard ofxstatement-*)
+PLUGINS=$(wildcard ofxstatement-*) $(wildcard banking.statements.*)
 
 plugin_clean_% : %
 	cd $< && python3 setup.py clean
@@ -40,4 +40,4 @@ sync:
 	git submodule update --init
 	git submodule foreach git fetch
 	git submodule foreach git rebase origin/master
-	git commit ofxstatement-* -s -m "Update submodules" -m "$$(git submodule summary)"
+	git commit ofxstatement-* banking.* -s -m "Update submodules" -m "$$(git submodule summary)"
