@@ -1,3 +1,18 @@
+ofxstatement-plugins (20180309) unstable; urgency=medium
+
+  * Add banking.statements.nordea and banking.statements.osuuspankki.
+  * debian/copyright: Relicense ofxstatement-alfabank and ofxstatement-seb
+    under MIT license.
+  * New plugin ofxstatement-lfs.
+  * Remove ofxstatement-alfabank plugin: superseded by ofxstatement-russian.
+  * Update submodules:
+    + ofxstatement-latvian
+    + ofxstatement-paypal
+    + ofxstatement-russian
+    + ofxstatement-seb
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Fri, 09 Mar 2018 22:37:55 +0300
+
 ofxstatement-plugins (20180128) unstable; urgency=medium
 
   * Update submodules:
