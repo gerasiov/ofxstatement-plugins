@@ -85,3 +85,6 @@
 [submodule "banking.statements.nordea"]
 	path = banking.statements.nordea
 	url = https://github.com/koodaamo/banking.statements.nordea.git
+[submodule "ofxstatement-lfs"]
+	path = ofxstatement-lfs
+	url = https://github.com/themalkolm/ofxstatement-lfs

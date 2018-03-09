@@ -8,7 +8,9 @@ Copyright: 2013-2016, Mirko Dziadzka <mirko.dziadzka@gmail.com>
 License: BSD-2
 
 Files: ofxstatement-alfabank/*
-Copyright: 2016-2017, Alexander Krasnukhin <the.malkolm@gmail.com>
+	ofxstatement-lfs/*
+	ofxstatement-seb/*
+Copyright: 2016-2018, Alexander Krasnukhin <the.malkolm@gmail.com>
 License: MIT
 
 Files: ofxstatement-austrian/*
@@ -94,10 +96,6 @@ Copyright:
 	2016-2017, Alexander GQ Gerasiov <gq@cs.msu.su>
 	2017, Dmitry Pavlov <zeldigas@gmail.com>
 License: GPL-3
-
-Files: ofxstatement-seb/*
-Copyright: 2015-2017, Alexander Krasnukhin <the.malkolm@gmail.com>
-License: MIT
 
 Files: ofxstatement-simple/*
 Copyright: 2015, Chris Mayes <cmayes@cmayes.com>

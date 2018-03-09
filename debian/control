@@ -36,6 +36,7 @@ Description: set of plugins for ofxstatement
  ofxstatement-is-arionbanki
  ofxstatement-iso20022
  ofxstatement-latvian
+ ofxstatement-lfs
  ofxstatement-lithuanian
  ofxstatement-mbank-sk
  ofxstatement-otp
