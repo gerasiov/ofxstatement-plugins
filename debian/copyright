@@ -7,8 +7,7 @@ Files: ofxstatement-1822direkt/*
 Copyright: 2013-2016, Mirko Dziadzka <mirko.dziadzka@gmail.com>
 License: BSD-2
 
-Files: ofxstatement-alfabank/*
-	ofxstatement-lfs/*
+Files: ofxstatement-lfs/*
 	ofxstatement-seb/*
 Copyright: 2016-2018, Alexander Krasnukhin <the.malkolm@gmail.com>
 License: MIT

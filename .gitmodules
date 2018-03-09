@@ -43,9 +43,6 @@
 [submodule "ofxstatement-seb"]
 	path = ofxstatement-seb
 	url = https://github.com/themalkolm/ofxstatement-seb
-[submodule "ofxstatement-alfabank"]
-	path = ofxstatement-alfabank
-	url = https://github.com/themalkolm/ofxstatement-alfabank
 [submodule "ofxstatement-paypal"]
 	path = ofxstatement-paypal
 	url = https://github.com/themalkolm/ofxstatement-paypal
