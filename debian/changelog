@@ -1,3 +1,9 @@
+ofxstatement-plugins (20180309~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Sun, 08 Apr 2018 15:15:52 +0300
+
 ofxstatement-plugins (20180309) unstable; urgency=medium
 
   * Add banking.statements.nordea and banking.statements.osuuspankki.
