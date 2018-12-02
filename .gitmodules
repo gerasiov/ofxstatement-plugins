@@ -42,10 +42,10 @@
 	url = https://github.com/kedder/ofxstatement-iso20022
 [submodule "ofxstatement-seb"]
 	path = ofxstatement-seb
-	url = https://github.com/themalkolm/ofxstatement-seb
+	url = https://github.com/gerasiov/ofxstatement-seb
 [submodule "ofxstatement-paypal"]
 	path = ofxstatement-paypal
-	url = https://github.com/themalkolm/ofxstatement-paypal
+	url = https://github.com/gerasiov/ofxstatement-paypal
 [submodule "ofxstatement-polish"]
 	path = ofxstatement-polish
 	url = https://github.com/yay6/ofxstatement-polish
@@ -84,7 +84,7 @@
 	url = https://github.com/koodaamo/banking.statements.nordea.git
 [submodule "ofxstatement-lfs"]
 	path = ofxstatement-lfs
-	url = https://github.com/themalkolm/ofxstatement-lfs
+	url = https://github.com/gerasiov/ofxstatement-lfs
 [submodule "ofxstatement-fineco"]
 	path = ofxstatement-fineco
 	url = https://github.com/frankIT/ofxstatement-fineco
