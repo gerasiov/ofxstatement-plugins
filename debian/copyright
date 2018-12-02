@@ -20,6 +20,7 @@ Files: ofxstatement-be-ing/*
 Copyright:
 	2013, Andrey Lebedev <andrey@lebedev.lt>
 	2016, TheoMarescaux <theo.public@gmail.com>
+	2018, Bernardo Bandos <jbbandos@hotmail.com>
 License: AGPL-3
 
 Files: ofxstatement-be-kbc/*
