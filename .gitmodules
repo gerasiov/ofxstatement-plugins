@@ -84,10 +84,13 @@
 	url = https://github.com/koodaamo/banking.statements.nordea.git
 [submodule "ofxstatement-lfs"]
 	path = ofxstatement-lfs
-	url = https://github.com/themalkolm/ofxstatement-lfs
+	url = https://github.com/gerasiov/ofxstatement-lfs.git
 [submodule "ofxstatement-fineco"]
 	path = ofxstatement-fineco
 	url = https://github.com/frankIT/ofxstatement-fineco
 [submodule "ofxstatement-al_bank"]
 	path = ofxstatement-al_bank
 	url = https://github.com/lbschenkel/ofxstatement-al_bank
+[submodule "ofxstatement-lansforsakringar"]
+	path = ofxstatement-lansforsakringar
+	url = https://github.com/lbschenkel/ofxstatement-lansforsakringar
