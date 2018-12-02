@@ -1,3 +1,23 @@
+ofxstatement-plugins (20181202) unstable; urgency=medium
+
+  * ofxstatement-be-ing: Change upstream channel.
+  * New modules ofxstatement-fineco.
+  * New modules ofxstatement-al_bank.
+  * New modules ofxstatement-lansforsakringar.
+  * New modules ofxstatement-intesasp.
+  * lansf-fixup
+  * ofxstatement-lfs, ofxstatement-seb and ofxstatement-paypal are moved to
+    another upstream.
+  * Update submodules:
+    - ofxstatement-1822direkt
+    - ofxstatement-be-kbc
+    - ofxstatement-otp
+    - ofxstatement-seb
+    - ofxstatement-be-ing
+  * d/copyright: Update ofxstatement-be-ing according to upstream change.
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Sun, 02 Dec 2018 18:10:26 +0300
+
 ofxstatement-plugins (20180309) unstable; urgency=medium
 
   * Add banking.statements.nordea and banking.statements.osuuspankki.
