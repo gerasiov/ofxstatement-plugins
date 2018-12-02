@@ -51,3 +51,4 @@ Description: set of plugins for ofxstatement
  banking.statements.osuuspankki
  banking.statements.nordea
  ofxstatement-fineco
+ ofxstatement-al_bank

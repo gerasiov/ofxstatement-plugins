@@ -88,3 +88,6 @@
 [submodule "ofxstatement-fineco"]
 	path = ofxstatement-fineco
 	url = https://github.com/frankIT/ofxstatement-fineco
+[submodule "ofxstatement-al_bank"]
+	path = ofxstatement-al_bank
+	url = https://github.com/lbschenkel/ofxstatement-al_bank

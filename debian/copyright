@@ -141,6 +141,10 @@ Copyright:
 	2018, Francesco Lorenzetti <fracchiaman@gmail.com>
 License: GPL-3
 
+FIles: ofxstatement-al_bank/*
+Copyright: 2018, Leonardo Brondani Schenkel <leonardo@schenkel.net>
+License: GPL-3
+
 Files: debian/*
 Copyright: 2016 Alexander Gerasiov <gq@debian.org>
 License: GPL-3 or Apache-2.0
