@@ -27,7 +27,7 @@
 	url = https://github.com/Scotchy49/ofxstatement-be-keytrade
 [submodule "ofxstatement-be-ing"]
 	path = ofxstatement-be-ing
-	url = https://github.com/TheoMarescaux/ofxstatement-be-ing
+	url = https://github.com/jbbandos/ofxstatement-be-ing
 [submodule "ofxstatement-betterment"]
 	path = ofxstatement-betterment
 	url = https://github.com/cmayes/ofxstatement-betterment
