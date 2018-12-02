@@ -50,3 +50,4 @@ Description: set of plugins for ofxstatement
  ofxstatement-unicreditcz
  banking.statements.osuuspankki
  banking.statements.nordea
+ ofxstatement-fineco

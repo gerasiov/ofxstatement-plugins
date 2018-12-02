@@ -85,3 +85,6 @@
 [submodule "ofxstatement-lfs"]
 	path = ofxstatement-lfs
 	url = https://github.com/themalkolm/ofxstatement-lfs
+[submodule "ofxstatement-fineco"]
+	path = ofxstatement-fineco
+	url = https://github.com/frankIT/ofxstatement-fineco
