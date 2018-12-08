@@ -146,7 +146,7 @@ FIles: ofxstatement-al_bank/* ofxstatement-lansforsakringar/*
 Copyright: 2018, Leonardo Brondani Schenkel <leonardo@schenkel.net>
 License: GPL-3
 
-FIles: ofxstatement-intesasp/*
+FIles: _ofxstatement-intesasp/*
 Copyright: 2018, Di Campli D. Raffaele Jr <dcdrj.pub@gmail.com>
 License: GPL-3
 
