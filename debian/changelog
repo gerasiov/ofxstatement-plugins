@@ -1,3 +1,14 @@
+ofxstatement-plugins (20181208) unstable; urgency=high
+
+  * d/changelog: Fix entries in previous version.
+  * Update submodules
+  * Update d/patches/ofxstatement-lansforsakringar.patch.
+  * Disable ofxstatement-intesasp installation - plugin is broken.
+  * d/rules: Do not install nspkg.pth files.
+  * Urgency is high, cause package in testing is uninstallable.
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Sat, 08 Dec 2018 14:42:52 +0300
+
 ofxstatement-plugins (20181202) unstable; urgency=medium
 
   * ofxstatement-be-ing: Change upstream channel.
