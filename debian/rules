@@ -24,6 +24,9 @@ plugin_install_% : %
 	# Don't install tests
 	find $(CURDIR)/debian/ofxstatement-plugins -type d -name 'tests' -print0 | \
 		xargs -0r rm -rf
+	# Don't install nspkg.pth
+	find $(CURDIR)/debian/ofxstatement-plugins -name '*-nspkg.pth' -print0 | \
+		xargs -0r rm -rf
 
 plugin_test_% : %
 	cd $< && python3 setup.py test
