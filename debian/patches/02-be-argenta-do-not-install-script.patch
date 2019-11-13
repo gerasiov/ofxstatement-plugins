@@ -1,0 +1,10 @@
+--- a/ofxstatement-be-argenta/setup.py
++++ b/ofxstatement-be-argenta/setup.py
+@@ -31,7 +31,6 @@
+       namespace_packages=['ofxstatement', 'ofxstatement.plugins'],
+       entry_points={
+           'ofxstatement': ['argenta = ofxstatement.plugins.argenta:ArgentaPlugin'],
+-          'console_scripts': ['ofx-argenta-convert = ofxstatement_be_argenta.convert:convert']
+       },
+       install_requires=[
+           'ofxstatement>=0.6.1',
