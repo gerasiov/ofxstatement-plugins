@@ -157,6 +157,10 @@ FIles: _ofxstatement-intesasp/*
 Copyright: 2018, Di Campli D. Raffaele Jr <dcdrj.pub@gmail.com>
 License: GPL-3
 
+Files: ofxstatement-be-argenta/*
+Copyright: 2019, Wout Breugelmans <Wout.Breugelmans@gmail.com>
+License: MIT
+
 Files: debian/*
 Copyright: 2016 Alexander Gerasiov <gq@debian.org>
 License: GPL-3 or Apache-2.0
