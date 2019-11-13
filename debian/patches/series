@@ -1,2 +1,3 @@
 01-fix-autotests.patch
 02-be-argenta-do-not-install-script.patch
+03-fix-pytest.patch

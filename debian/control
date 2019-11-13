@@ -3,6 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Alexander GQ Gerasiov <gq@debian.org>
 Build-Depends: debhelper (>= 9), quilt, dh-python, python3-all, python3-setuptools,
+ python3-pytest, python3-pytest-runner,
  ofxstatement,
  python3-appdirs,
  python3-mock,

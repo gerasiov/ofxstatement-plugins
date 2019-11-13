@@ -1,0 +1,40 @@
+--- a/ofxstatement-czech/src/ofxstatement/plugins/tests/test_gpc.py
++++ b/ofxstatement-czech/src/ofxstatement/plugins/tests/test_gpc.py
+@@ -10,7 +10,7 @@
+     pass
+ 
+ 
+-def test_generator(test_file_name):
++def generate_test(test_file_name):
+     def test_parser(self):
+         with open(test_file_name, 'rb') as test_file:
+             parser = GPCParser(test_file)
+@@ -43,7 +43,7 @@
+     for t in tests:
+         test_base = os.path.splitext(os.path.split(t)[1])[0]
+         test_core = 'test_%s' % test_base
+-        tests = test_generator(t)
++        tests = generate_test(t)
+         for test in zip(['parser', 'parseLine'], tests):
+             test_name = "{}_{}".format(test_core, test[0])
+             setattr(TestParser, test_name, test[1])
+--- a/ofxstatement-czech/src/ofxstatement/plugins/tests/test_maxibps.py
++++ b/ofxstatement-czech/src/ofxstatement/plugins/tests/test_maxibps.py
+@@ -8,7 +8,7 @@
+     pass
+ 
+ 
+-def test_generator(test_file_name):
++def generate_test(test_file_name):
+     def test_parser(self):
+         with open(test_file_name, "U", encoding="utf-8-sig") as test_file:
+             parser = PSTextFormatParser(test_file)
+@@ -35,7 +35,7 @@
+     for t in tests:
+         test_base = os.path.splitext(os.path.split(t)[1])[0]
+         test_core = 'test_%s' % test_base
+-        tests = test_generator(t)
++        tests = generate_test(t)
+         for test in zip(['parser', 'parseLine'], tests):
+             test_name = "{}_{}".format(test_core, test[0])
+             setattr(TestParser, test_name, test[1])

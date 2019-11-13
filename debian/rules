@@ -30,6 +30,11 @@ plugin_install_% : %
 
 plugin_test_% : %
 	cd $< && python3 setup.py test
+	# run pytest with doctest and ignore exit code 5 (no tests found)
+	cd $< && PYTEST_ADDOPTS=--doctest-modules python3 setup.py pytest; \
+		PYTEST_RESULT=$$?; \
+		test $$PYTEST_RESULT -eq 5 && exit 0; \
+		exit $$PYTEST_RESULT
 
 
 override_dh_auto_clean: $(addprefix plugin_clean_,$(PLUGINS))
