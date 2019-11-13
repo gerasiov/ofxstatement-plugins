@@ -131,6 +131,13 @@ Copyright:
 	2018, Bernard Butaye <bernardenmartine@gmail.com>
 License: GPL-3
 
+Files: ofxstatement-de-triodos/*
+Copyright:
+	2013, Andrey Lebedev <andrey@lebedev.lt>
+	2018, Bernard Butaye <bernardenmartine@gmail.com>
+	2019, pianoslum <pianoslum@mailbox.org>
+License: GPL-3
+
 Files: banking.statements.nordea/*
 	banking.statements.osuuspankki/*
 Copyright: 2011-2018, Petri Savolainen <petri.savolainen@iki.fi>

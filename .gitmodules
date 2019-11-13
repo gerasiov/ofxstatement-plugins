@@ -97,3 +97,6 @@
 [submodule "ofxstatement-germany"]
 	path = _ofxstatement-germany
 	url = https://github.com/MirkoDziadzka/ofxstatement-germany
+[submodule "ofxstatement-de-triodos"]
+	path = ofxstatement-de-triodos
+	url = https://github.com/pianoslum/ofxstatement-de-triodos
