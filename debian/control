@@ -2,14 +2,19 @@ Source: ofxstatement-plugins
 Section: misc
 Priority: optional
 Maintainer: Alexander GQ Gerasiov <gq@debian.org>
-Build-Depends: debhelper (>= 9), quilt, dh-python, python3-all, python3-setuptools,
- python3-pytest, python3-pytest-runner,
- ofxstatement,
- python3-appdirs,
- python3-mock,
- python3-click,
- python3-openpyxl,
- python3-xlrd,
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               ofxstatement,
+               python3-all,
+               python3-appdirs,
+               python3-click,
+               python3-mock,
+               python3-openpyxl,
+               python3-pytest,
+               python3-pytest-runner,
+               python3-setuptools,
+               python3-xlrd,
+               quilt
 Standards-Version: 4.1.1
 Homepage: https://github.com/gerasiov/ofxstatement-plugins
 Vcs-Git: https://github.com/gerasiov/ofxstatement-plugins
@@ -17,7 +22,7 @@ Vcs-Browser: https://github.com/gerasiov/ofxstatement-plugins
 
 Package: ofxstatement-plugins
 Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}
 Description: set of plugins for ofxstatement
  Most internet banking systems are capable of exporting account transactions to
  some sort of computer readable formats, but few supports standard data formats,
