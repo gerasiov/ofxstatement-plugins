@@ -3,8 +3,8 @@ Upstream-Name: ofxstatement-plugins
 Source: https://github.com/gerasiov/ofxstatement-plugins
 
 
-Files: ofxstatement-1822direkt/*
-Copyright: 2013-2016, Mirko Dziadzka <mirko.dziadzka@gmail.com>
+Files: _ofxstatement-germany/*
+Copyright: 2013-2019, Mirko Dziadzka <mirko.dziadzka@gmail.com>
 License: BSD-2
 
 Files: ofxstatement-lfs/*

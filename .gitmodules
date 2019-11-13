@@ -13,9 +13,6 @@
 [submodule "ofxstatement-bubbas"]
 	path = ofxstatement-bubbas
 	url = https://github.com/bubbas/ofxstatement-bubbas
-[submodule "ofxstatement-1822direkt"]
-	path = ofxstatement-1822direkt
-	url = https://github.com/MirkoDziadzka/ofxstatement-1822direkt
 [submodule "ofxstatement-austrian"]
 	path = ofxstatement-austrian
 	url = https://github.com/nblock/ofxstatement-austrian
@@ -97,3 +94,6 @@
 [submodule "ofxstatement-intesasp"]
 	path = _ofxstatement-intesasp
 	url = https://github.com/Jacotsu/ofxstatement-intesasp
+[submodule "ofxstatement-germany"]
+	path = _ofxstatement-germany
+	url = https://github.com/MirkoDziadzka/ofxstatement-germany
