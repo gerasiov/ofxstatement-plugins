@@ -1,0 +1,1 @@
+Since I keep plugins as git submodules, I need to patch it separately with quilt.

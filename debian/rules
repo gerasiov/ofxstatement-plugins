@@ -4,7 +4,7 @@
 export PYBUILD_NAME = ofxstatement-plugins
 
 %:
-	dh $@ --with python3
+	dh $@ --with python3,quilt
 
 PLUGINS=$(wildcard ofxstatement-*) $(wildcard banking.statements.*)
 
@@ -37,7 +37,7 @@ override_dh_auto_clean: $(addprefix plugin_clean_,$(PLUGINS))
 		ofxstatement-postfinance/src/ofxstatement_postfinance.egg-info
 override_dh_auto_build: $(addprefix plugin_build_,$(PLUGINS))
 override_dh_auto_install: $(addprefix plugin_install_,$(PLUGINS))
-#override_dh_auto_test: $(addprefix plugin_test_,$(PLUGINS))
+override_dh_auto_test: $(addprefix plugin_test_,$(PLUGINS))
 
 sync:
 	git submodule update --init

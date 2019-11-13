@@ -1,0 +1,99 @@
+--- a/ofxstatement-be-argenta/setup.py
++++ b/ofxstatement-be-argenta/setup.py
+@@ -35,10 +35,9 @@
+       },
+       install_requires=[
+           'ofxstatement>=0.6.1',
+-          'openpyxl>=2.6.2',
++          'openpyxl',
+           'click>=6.7'
+       ],
+-      test_suite='ofxstatement.plugins.tests',
+       include_package_data=True,
+       zip_safe=True
+       )
+--- a/ofxstatement-bubbas/src/ofxstatement/plugins/lbbamazon.py
++++ b/ofxstatement-bubbas/src/ofxstatement/plugins/lbbamazon.py
+@@ -7,6 +7,7 @@
+ class LbbAmazonCsvStatementParser(CsvStatementParser):
+     mappings = {"date": 1, "memo": 3, "amount": 6}
+     date_format = "%d.%m.%Y"
++    ignore_amazon_points = False
+ 
+     def split_records(self):
+         return csv.reader(self.fin, delimiter=';')
+--- a/ofxstatement-intesasp/setup.py
++++ b/ofxstatement-intesasp/setup.py
+@@ -36,7 +36,7 @@
+           'ofxstatement':
+           ['IntesaSP = ofxstatement.plugins.intesaSP:IntesaSanPaoloPlugin']
+           },
+-      install_requires=['ofxstatement', 'openpyxl', 'dataclasses'],
++      install_requires=['ofxstatement', 'openpyxl'],
+       include_package_data=True,
+       zip_safe=True
+       )
+--- a/ofxstatement-lfs/setup.py
++++ b/ofxstatement-lfs/setup.py
+@@ -1,7 +1,7 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
+ 
+-from distutils.core import setup
++from setuptools import setup
+ 
+ version = '0.0.1'
+ with open('README.rst', encoding="utf-8") as f:
+@@ -31,11 +31,10 @@
+           'ofxstatement': ['lfs = ofxstatement.plugins.lfs:LfsPlugin']
+       },
+       install_requires=[
+-          'appdirs==1.4.3',
+-          'ofxstatement==0.6.1',
+-          'xlrd==1.1.0',
++          'appdirs',
++          'ofxstatement',
++          'xlrd',
+       ],
+-      test_suite='ofxstatement.plugins.tests',
+       include_package_data=True,
+       zip_safe=True
+       )
+--- a/ofxstatement-paypal/setup.py
++++ b/ofxstatement-paypal/setup.py
+@@ -1,7 +1,7 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
+ 
+-from distutils.core import setup
++from setuptools import setup
+ 
+ version = '1.0.0'
+ with open('README.rst') as f:
+@@ -31,7 +31,6 @@
+           'ofxstatement': ['paypal = ofxstatement.plugins.paypal:PayPalPlugin']
+       },
+       install_requires=['ofxstatement'],
+-      test_suite='ofxstatement.plugins.tests',
+       include_package_data=True,
+       zip_safe=True
+       )
+--- a/ofxstatement-seb/setup.py
++++ b/ofxstatement-seb/setup.py
+@@ -1,7 +1,7 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
+ 
+-from distutils.core import setup
++from setuptools import setup
+ 
+ version = '1.0.0'
+ with open('README.rst', encoding = "utf-8") as f:
+@@ -31,7 +31,6 @@
+           'ofxstatement': ['seb = ofxstatement.plugins.seb:SebPlugin']
+       },
+       install_requires=['ofxstatement'],
+-      test_suite='ofxstatement.plugins.tests',
+       include_package_data=True,
+       zip_safe=True
+       )
