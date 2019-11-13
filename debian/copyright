@@ -161,6 +161,13 @@ Files: ofxstatement-be-argenta/*
 Copyright: 2019, Wout Breugelmans <Wout.Breugelmans@gmail.com>
 License: MIT
 
+Files: ofxstatement-de-ing/*
+Copyright: 2013, Andrey Lebedev <andrey@lebedev.lt>
+	2016, TheoMarescaux <theo.public@gmail.com>
+	2018, Bernardo Bandos <jbbandos@hotmail.com>
+	2019, Faha <dev-faha@t-online.de>
+License: AGPL-3
+
 Files: debian/*
 Copyright: 2016 Alexander Gerasiov <gq@debian.org>
 License: GPL-3 or Apache-2.0

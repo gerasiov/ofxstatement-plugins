@@ -106,3 +106,6 @@
 [submodule "ofxstatement-be-argenta"]
 	path = ofxstatement-be-argenta
 	url = https://github.com/woutbr/ofxstatement-be-argenta
+[submodule "ofxstatement-de-ing"]
+	path = ofxstatement-de-ing
+	url = https://github.com/fabolhak/ofxstatement-de-ing
