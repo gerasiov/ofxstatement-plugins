@@ -107,7 +107,7 @@ Copyright:
 	2016, Milan Knížek <milankni.git@gmail.com>
 License: AGPL-3
 
-Files: ofxstatement-dab/*
+Files: ofxstatement-dab/* ofxstatement-consors/*
 Copyright:
 	2013, Andrey Lebedev <andrey@lebedev.lt>
 	2016, Johannes Klug <jk@jklug.com>

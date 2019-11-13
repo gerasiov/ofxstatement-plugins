@@ -100,3 +100,6 @@
 [submodule "ofxstatement-de-triodos"]
 	path = ofxstatement-de-triodos
 	url = https://github.com/pianoslum/ofxstatement-de-triodos
+[submodule "ofxstatement-consors"]
+	path = ofxstatement-consors
+	url = https://github.com/JohannesKlug/ofxstatement-consors
