@@ -92,7 +92,7 @@
 	path = ofxstatement-lansforsakringar
 	url = https://github.com/lbschenkel/ofxstatement-lansforsakringar
 [submodule "ofxstatement-intesasp"]
-	path = _ofxstatement-intesasp
+	path = ofxstatement-intesasp
 	url = https://github.com/Jacotsu/ofxstatement-intesasp
 [submodule "ofxstatement-germany"]
 	path = _ofxstatement-germany
