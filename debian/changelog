@@ -1,3 +1,14 @@
+ofxstatement-plugins (20191114) unstable; urgency=medium
+
+  * Call pytest on plugin test.
+  * wrap-and-sort on debian/
+  * Update submodules:
+    - ofxstatement-russian
+    - ofxstatement-bubbas
+  * Disable ofxstatement-paypal (it conflicts with ofxstatement-polish).
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Thu, 14 Nov 2019 12:40:41 +0300
+
 ofxstatement-plugins (20191113) unstable; urgency=medium
 
   * ofxstatement-1822direkt renamed to ofxstatement-germany
