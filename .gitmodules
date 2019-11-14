@@ -41,7 +41,7 @@
 	path = ofxstatement-seb
 	url = https://github.com/gerasiov/ofxstatement-seb
 [submodule "ofxstatement-paypal"]
-	path = ofxstatement-paypal
+	path = _ofxstatement-paypal
 	url = https://github.com/gerasiov/ofxstatement-paypal
 [submodule "ofxstatement-polish"]
 	path = ofxstatement-polish

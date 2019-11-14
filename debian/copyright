@@ -76,7 +76,7 @@ Copyright:
 	2016, Zoltan Nagy <abesto@abesto.net>
 License: AGPL-3
 
-Files: ofxstatement-paypal/*
+Files: _ofxstatement-paypal/*
 Copyright: 2016, Alexander Krasnukhin <the.malkolm@gmail.com>
 License: Apache-2.0
 
