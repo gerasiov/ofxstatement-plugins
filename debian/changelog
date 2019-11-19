@@ -1,3 +1,9 @@
+ofxstatement-plugins (20191114~bpo10+1) buster-backports; urgency=medium
+
+  * Rebuild for buster-backports.
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Tue, 19 Nov 2019 10:29:44 +0300
+
 ofxstatement-plugins (20191114) unstable; urgency=medium
 
   * Call pytest on plugin test.
