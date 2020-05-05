@@ -8,7 +8,7 @@ Copyright: 2013-2019, Mirko Dziadzka <mirko.dziadzka@gmail.com>
 License: BSD-2
 
 Files: ofxstatement-lfs/*
-	ofxstatement-seb/*
+        ofxstatement-seb/*
 Copyright: 2016-2018, Alexander Krasnukhin <the.malkolm@gmail.com>
 License: MIT
 
@@ -18,40 +18,40 @@ License: GPL-3
 
 Files: ofxstatement-be-ing/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2016, TheoMarescaux <theo.public@gmail.com>
-	2018, Bernardo Bandos <jbbandos@hotmail.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2016, TheoMarescaux <theo.public@gmail.com>
+        2018, Bernardo Bandos <jbbandos@hotmail.com>
 License: AGPL-3
 
 Files: ofxstatement-be-kbc/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2016, Pieter Lenaerts <pieter.aj.lenaerts@gmail.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2016, Pieter Lenaerts <pieter.aj.lenaerts@gmail.com>
 License: GPL-3
 
 Files: ofxstatement-be-keytrade/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2015, Serkan Eryilmaz <scotchy@scotchy.be>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2015, Serkan Eryilmaz <scotchy@scotchy.be>
 License: AGPL-3
 
 Files: ofxstatement-betterment/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2015-2016, Chris Mayes <cmayes@cmayes.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2015-2016, Chris Mayes <cmayes@cmayes.com>
 License: GPL-3
 
 Files: ofxstatement-bubbas/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2013, Mirko Dziadzka <mirko.dziadzka@gmail.com>
-	2013-2015, bubbas <seca2@freenet.de>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2013, Mirko Dziadzka <mirko.dziadzka@gmail.com>
+        2013-2015, bubbas <seca2@freenet.de>
 License: AGPL-3
 
 Files: ofxstatement-czech/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2013-2015, Matěj Cepl <mcepl@cepl.eu>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2013-2015, Matěj Cepl <mcepl@cepl.eu>
 License: GPL-3
 
 Files: ofxstatement-iso20022/*
@@ -72,8 +72,8 @@ License: AGPL-3
 
 Files: ofxstatement-otp/*
 Copyright:
-	2013-2016, Andrey Lebedev <andrey@lebedev.lt>
-	2016, Zoltan Nagy <abesto@abesto.net>
+        2013-2016, Andrey Lebedev <andrey@lebedev.lt>
+        2016, Zoltan Nagy <abesto@abesto.net>
 License: AGPL-3
 
 Files: _ofxstatement-paypal/*
@@ -86,15 +86,15 @@ License: GPL-3
 
 Files: ofxstatement-postfinance/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2015, Max Rydahl Andersen <python@xam.dk>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2015, Max Rydahl Andersen <python@xam.dk>
 License: AGPL-3
 
 Files: ofxstatement-russian/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2016-2017, Alexander GQ Gerasiov <gq@cs.msu.su>
-	2017, Dmitry Pavlov <zeldigas@gmail.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2016-2017, Alexander GQ Gerasiov <gq@cs.msu.su>
+        2017, Dmitry Pavlov <zeldigas@gmail.com>
 License: GPL-3
 
 Files: ofxstatement-simple/*
@@ -103,50 +103,50 @@ License: GPL-3
 
 Files: ofxstatement-unicreditcz/* ofxstatement-raiffeisencz/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2016, Milan Knížek <milankni.git@gmail.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2016, Milan Knížek <milankni.git@gmail.com>
 License: AGPL-3
 
 Files: ofxstatement-dab/* ofxstatement-consors/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2016, Johannes Klug <jk@jklug.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2016, Johannes Klug <jk@jklug.com>
 License: GPL-3
 
 Files: ofxstatement-airbankcz/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2017, Milan Knížek <milankni@gmail.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2017, Milan Knížek <milankni@gmail.com>
 License: GPL-3
 
 Files: ofxstatement-is-arionbanki/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2017, Dagur Páll Ammendrup <dagurp@gmail.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2017, Dagur Páll Ammendrup <dagurp@gmail.com>
 License: GPL-3
 
 Files: ofxstatement-be-triodos/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2018, Bernard Butaye <bernardenmartine@gmail.com>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2018, Bernard Butaye <bernardenmartine@gmail.com>
 License: GPL-3
 
 Files: ofxstatement-de-triodos/*
 Copyright:
-	2013, Andrey Lebedev <andrey@lebedev.lt>
-	2018, Bernard Butaye <bernardenmartine@gmail.com>
-	2019, pianoslum <pianoslum@mailbox.org>
+        2013, Andrey Lebedev <andrey@lebedev.lt>
+        2018, Bernard Butaye <bernardenmartine@gmail.com>
+        2019, pianoslum <pianoslum@mailbox.org>
 License: GPL-3
 
 Files: banking.statements.nordea/*
-	banking.statements.osuuspankki/*
+        banking.statements.osuuspankki/*
 Copyright: 2011-2018, Petri Savolainen <petri.savolainen@iki.fi>
 License: GPL-3
 
 Files: ofxstatement-fineco/*
 Copyright:
         2013, Andrey Lebedev <andrey@lebedev.lt>
-	2018, Francesco Lorenzetti <fracchiaman@gmail.com>
+        2018, Francesco Lorenzetti <fracchiaman@gmail.com>
 License: GPL-3
 
 Files: ofxstatement-al_bank/* ofxstatement-lansforsakringar/*
@@ -163,9 +163,9 @@ License: MIT
 
 Files: ofxstatement-de-ing/*
 Copyright: 2013, Andrey Lebedev <andrey@lebedev.lt>
-	2016, TheoMarescaux <theo.public@gmail.com>
-	2018, Bernardo Bandos <jbbandos@hotmail.com>
-	2019, Faha <dev-faha@t-online.de>
+        2016, TheoMarescaux <theo.public@gmail.com>
+        2018, Bernardo Bandos <jbbandos@hotmail.com>
+        2019, Faha <dev-faha@t-online.de>
 License: AGPL-3
 
 Files: debian/*
@@ -228,14 +228,14 @@ License: BSD-2
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: AGPL-3
-		      GNU AFFERO GENERAL PUBLIC LICENSE
-			 Version 3, 19 November 2007
+                      GNU AFFERO GENERAL PUBLIC LICENSE
+                         Version 3, 19 November 2007
   .
    Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
    Everyone is permitted to copy and distribute verbatim copies
    of this license document, but changing it is not allowed.
   .
-			      Preamble
+                              Preamble
   .
     The GNU Affero General Public License is a free, copyleft license for
   software and other kinds of works, specifically designed to ensure
@@ -286,7 +286,7 @@ License: AGPL-3
     The precise terms and conditions for copying, distribution and
   modification follow.
   .
-			 TERMS AND CONDITIONS
+                         TERMS AND CONDITIONS
   .
     0. Definitions.
   .
@@ -846,9 +846,9 @@ License: AGPL-3
   Program, unless a warranty or assumption of liability accompanies a
   copy of the Program in return for a fee.
   .
-		       END OF TERMS AND CONDITIONS
+                       END OF TERMS AND CONDITIONS
   .
-	      How to Apply These Terms to Your New Programs
+              How to Apply These Terms to Your New Programs
   .
     If you develop a new program, and you want it to be of the greatest
   possible use to the public, the best way to achieve this is to make it
