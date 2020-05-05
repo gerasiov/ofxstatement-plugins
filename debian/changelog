@@ -1,3 +1,43 @@
+ofxstatement-plugins (20200505) unstable; urgency=medium
+
+  * Update submodules
+    * ofxstatement-de-triodos f7a457d...8aef762 (1):
+      > Fix typo BE->DE
+    * ofxstatement-iso20022 0ebc9a2...7190e5f (3):
+      > Modernize dev environment
+      > Test for newer python versions
+      > Merge pull request #2 from peahonen/master
+    * ofxstatement-otp 8ef690d...195f6a6 (2):
+      > Bump version 0.0.2 -> 0.0.3
+      > Merge pull request #2 from gyp/master
+    * ofxstatement-raiffeisencz 824573d...669bc25 (2):
+      > Updated .memo and .payee string handling
+      > Excluded .date_user from mappings and convert to date manually
+    * ofxstatement-unicreditcz 91fe3c6...2881736 (55):
+      > Corrected .memo string handling
+      > Modified string manipulation for .memo and .payee
+      > Added description of how GnuCash assigns OFX fields. Modified .payee
+        and .memo field mapping
+      > Updated git describe
+      > Added a script with example of setup and test of the plugin.
+      > Updated README.rst with the new CSV format
+      > Update of date format 2019 CSV format
+      > Updated description of CSV structure
+      > Updated for CSV format of year 2019
+      > Added unicreditcz18.py
+  * Fix errors in autotests with ofxstatement 0.6.4 (Closes: #955665):
+    - ofxstatement-austrian
+    - ofxstatement-betterment
+    - ofxstatement-bubbas
+    - ofxstatement-iso20022
+    - ofxstatement-lithuanian
+  * d/control: Switch to debhelper 12.
+  * d/copyright: Fixes tab-in-license-text warning.
+  * d/control: Bump Standards-Version.
+  * d/control: Set minimal suitable version of ofxstatement.
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Tue, 05 May 2020 12:26:15 +0300
+
 ofxstatement-plugins (20191114) unstable; urgency=medium
 
   * Call pytest on plugin test.
