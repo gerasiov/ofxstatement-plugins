@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Alexander GQ Gerasiov <gq@debian.org>
 Build-Depends: debhelper-compat (= 12),
                dh-python,
-               ofxstatement,
+               ofxstatement (>= 0.6.4),
                python3-all,
                python3-appdirs,
                python3-click,
