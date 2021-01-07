@@ -3,7 +3,7 @@
 	url = https://github.com/kedder/ofxstatement-lithuanian
 [submodule "ofxstatement-czech"]
 	path = ofxstatement-czech
-	url = https://gitlab.com/mcepl/ofxstatement-czech
+	url = https://gitlab.com/mcepl/ofxstatement-czech.git/
 [submodule "ofxstatement-unicreditcz"]
 	path = ofxstatement-unicreditcz
 	url = https://github.com/milankni/ofxstatement-unicreditcz
