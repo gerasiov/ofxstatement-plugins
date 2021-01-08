@@ -1,3 +1,99 @@
+ofxstatement-plugins (20210108) unstable; urgency=medium
+
+  * ofxstatement-czech: updated url
+  * Update submodules
+    * ofxstatement-al_bank bccaa37...19a3361 (3):
+      > Version 0.2.1
+      > Calculate end balance for file
+      > Only attempt to parse date when it is a string
+
+    * ofxstatement-austrian 269c6df...5ab8068 (3):
+      > Remove version pinning for coverage
+      > Update Python versions in use
+      > Merge branch 'gerasiov-master'
+
+    * ofxstatement-be-kbc 4f6da52...cb6f95b (1):
+      > Use statement validation
+
+    * ofxstatement-betterment a7111c6...8439562 (2):
+      > I guess Python 3.3 isn't on Travis anymore...
+      > Merge pull request #3 from gerasiov/master
+
+    * ofxstatement-bubbas e5ceb74...69eb2e9 (1):
+      > Merge pull request #5 from gerasiov/master
+
+    * ofxstatement-consors 83463f6...593cc56 (1):
+      > Add payee to mapping
+
+    * ofxstatement-fineco a351d0c...f27d7cc (14):
+      > increase version number
+      > fix issue #7: updated the cards template
+      > fix a huge slip in checking savings_legacy tpl
+      > increase version number and comment about backward compatibility
+      > shift columns for savings_legacy tpl
+      > allow outcome input var to be negative as in the new savings template
+      > adding the position of the cell holding the account id to the template
+        arrays
+      > shifiting columns position according to the new savings template
+      > address variable account_id_str position between savings templates
+      > extra_field revised in the new savings template
+      > checking for extra_field in every tpl that has it set
+      > new savings sheet template added. renamed the old one for backward
+        compatibility
+      > fix issue #5: deal with xls dates only if needed
+      > Merge pull request #4 from MarcoBuster/master
+
+    * ofxstatement-iso20022 4397952...7319c27 (10):
+      > Back to development: 0.5.1
+      > Preparing release 0.5.0
+      > Blacken test sources
+      > Add type annotations
+      > Integrate mypy
+      > Blacken source code
+      > Integrate black
+      > Merge pull request #6 from kedder/pipenv
+      > Test for python3.8 too
+      > Merge pull request #5 from gerasiov/master
+
+    * ofxstatement-lithuanian 509926d...b23145b (19):
+      > Back to development: 1.2.1
+      > Preparing release 1.2.0
+      > Properly filter out lines with different currencies
+      > Back to development: 1.1.3
+      > Preparing release 1.1.2
+      > Restore test for litas-esis plugin
+      > Restore test for danske plugin
+      > Restore testing for swedbank plugin
+      > Do not read input two times
+      > Back to development: 1.1.1
+      > Preparing release 1.1.0
+      > Require newest ofxstatement
+      > Update to newly-released ofxstatement
+      > Add type annotations
+      > Blacken source code
+      > Integrate black
+      > Integrate mypy
+      > Use pipenv to manage dev environment
+      > Merge pull request #1 from gerasiov/master
+
+    * ofxstatement-otp 195f6a6...b630d58 (7):
+      > Bumped version to 0.0.6
+      > do not default missing statement values to 0
+      > Switch to pipenv for dev environment management
+      > Bump version 0.0.4 --> 0.0.5
+      > fixed the handling ampersands in the comment
+      > Bump version 0.0.3 --> 0.0.4
+      > generating a unique ID as they are now mandatory
+
+    * ofxstatement-russian 3167cb3...5c4e1d3 (1):
+      > Support ofxstatement >=0.6.5, where statement line id is mandatory now
+
+  * Add 04-fix-ofxstatement-6.5+-compatibility.patch (Closes: #971127).
+  * Add 05-fix-interpreter.patch: Fix interpreter in intesaSP plugin.
+  * d/control: Require ofxstatement 0.7.1  
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Fri, 08 Jan 2021 16:18:27 +0300
+
 ofxstatement-plugins (20200505) unstable; urgency=medium
 
   * Update submodules
