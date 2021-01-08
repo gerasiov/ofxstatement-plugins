@@ -1,0 +1,30 @@
+--- a/ofxstatement-bubbas/src/ofxstatement/plugins/dkb_cc.py
++++ b/ofxstatement-bubbas/src/ofxstatement/plugins/dkb_cc.py
+@@ -30,6 +30,7 @@
+         line[4]=line[4].replace('.','').replace(',','.')        
+         # fill statement line according to mappings
+         sl = super(DKBCCCsvStatementParser, self).parse_record(line)
++        sl.id = statement.generate_transaction_id(sl)
+         return sl
+ 
+ class DKBCCPlugin(Plugin):
+--- a/ofxstatement-bubbas/src/ofxstatement/plugins/lbbamazon.py
++++ b/ofxstatement-bubbas/src/ofxstatement/plugins/lbbamazon.py
+@@ -27,6 +27,7 @@
+ 
+         # fill statement line according to mappings
+         sl = super(LbbAmazonCsvStatementParser, self).parse_record(line)
++        sl.id = statement.generate_transaction_id(sl)
+         return sl
+ 
+ 
+--- a/ofxstatement-bubbas/src/ofxstatement/plugins/flatex.py
++++ b/ofxstatement-bubbas/src/ofxstatement/plugins/flatex.py
+@@ -25,6 +25,7 @@
+             
+         # fill statement line according to mappings
+         sl = super(FlatexCsvStatementParser, self).parse_record(line)
++        sl.id = statement.generate_transaction_id(sl)
+         return sl    
+ 
+ 
