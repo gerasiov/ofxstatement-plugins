@@ -1,3 +1,9 @@
+ofxstatement-plugins (20210310) unstable; urgency=medium
+
+  * d/rules: Disable autotests because of tecnical FTBFS. (Closes: #982704)
+
+ -- Alexander GQ Gerasiov <gq@debian.org>  Wed, 10 Mar 2021 11:15:48 +0300
+
 ofxstatement-plugins (20210108) unstable; urgency=medium
 
   * ofxstatement-czech: updated url
