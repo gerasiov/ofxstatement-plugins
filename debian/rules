@@ -42,7 +42,10 @@ override_dh_auto_clean: $(addprefix plugin_clean_,$(PLUGINS))
 		ofxstatement-postfinance/src/ofxstatement_postfinance.egg-info
 override_dh_auto_build: $(addprefix plugin_build_,$(PLUGINS))
 override_dh_auto_install: $(addprefix plugin_install_,$(PLUGINS))
+
+ifdef RUN_AUTOTESTS
 override_dh_auto_test: $(addprefix plugin_test_,$(PLUGINS))
+endif
 
 sync:
 	git submodule update --init
